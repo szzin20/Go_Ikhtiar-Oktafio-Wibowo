@@ -11,7 +11,7 @@ func main() {
         }
 
         for k := 1; k <=1*i; k++ {
-            fmt.Print(" *")
+            fmt.Print("* ")
         }
 
         fmt.Println() 
