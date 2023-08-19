@@ -14,7 +14,7 @@ func main() {
 	fmt.Scan(&sisiB)
 	
 	var tinggi int 
-	fmt.Print("Masukkan tinggi : ")
+	fmt.Print("Masukkan tinggi trapesium : ")
 	fmt.Scan(&tinggi)
 
 	//sisiB := 6
