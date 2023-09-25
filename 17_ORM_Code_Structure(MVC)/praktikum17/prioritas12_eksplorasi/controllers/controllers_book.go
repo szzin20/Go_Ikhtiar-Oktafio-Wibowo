@@ -9,7 +9,7 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
-func GetAllBooks(c echo.Context) error {
+func GetBooksController(c echo.Context) error {
 	var books []models.Book
 
 	if err := config.DB.Find(&books).Error; err != nil {
@@ -22,7 +22,7 @@ func GetAllBooks(c echo.Context) error {
 }
 
 // // get user by id
-func GetBookByID(c echo.Context) error {
+func GetBookController(c echo.Context) error {
 
 	idParam := c.Param("id")
 	id, err := strconv.Atoi(idParam)
@@ -41,7 +41,7 @@ func GetBookByID(c echo.Context) error {
 	})
 }
 
-func CreateBook(c echo.Context) error {
+func CreateBookController(c echo.Context) error {
 	book := models.Book{}
 	c.Bind(&book)
 
@@ -54,7 +54,7 @@ func CreateBook(c echo.Context) error {
 	})
 }
 
-func DeleteBook(c echo.Context) error {
+func DeleteBookController(c echo.Context) error {
 
 	idParam := c.Param("id")
 	id, err := strconv.Atoi(idParam)
@@ -75,7 +75,7 @@ func DeleteBook(c echo.Context) error {
 		"message": "success delete book",
 	})
 }
-func UpdateBook(c echo.Context) error {
+func UpdateBookController(c echo.Context) error {
 
 	idParam := c.Param("id")
 	id, err := strconv.Atoi(idParam)

@@ -9,7 +9,7 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
-func GetAllBlogs(c echo.Context) error {
+func GetBlogsController(c echo.Context) error {
 	var blogs []models.Blog
 
 	if err := config.DB.Find(&blogs).Error; err != nil {
@@ -22,7 +22,7 @@ func GetAllBlogs(c echo.Context) error {
 }
 
 // // get user by id
-func GetBlogByID(c echo.Context) error {
+func GetBlogController(c echo.Context) error {
 
 	idParam := c.Param("id")
 	id, err := strconv.Atoi(idParam)
@@ -41,7 +41,7 @@ func GetBlogByID(c echo.Context) error {
 	})
 }
 
-func CreateBlog(c echo.Context) error {
+func CreateBlogController(c echo.Context) error {
 	blog := models.Blog{}
 	c.Bind(&blog)
 
@@ -54,7 +54,7 @@ func CreateBlog(c echo.Context) error {
 	})
 }
 
-func DeleteBlog(c echo.Context) error {
+func DeleteBlogController(c echo.Context) error {
 
 	idParam := c.Param("id")
 	id, err := strconv.Atoi(idParam)
@@ -75,7 +75,7 @@ func DeleteBlog(c echo.Context) error {
 		"message": "success delete blog",
 	})
 }
-func UpdateBlog(c echo.Context) error {
+func UpdateBlogController(c echo.Context) error {
 
 	idParam := c.Param("id")
 	id, err := strconv.Atoi(idParam)
