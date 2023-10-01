@@ -11,7 +11,6 @@ type Config struct {
 	DB_Host     string
 	DB_Name     string
 }
-
 type User struct {
 	gorm.Model
 	Name     string `json:"name" form:"name"`
