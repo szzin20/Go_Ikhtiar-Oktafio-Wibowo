@@ -3,4 +3,6 @@ go 1.21.0
 use (
 	"./17_ORM_Code_Structure(MVC)/praktikum17/prioritas12_eksplorasi"
 	./18_Middleware/praktikum18/task
+	./19_Unit_Testing/praktikum19/
+
 )

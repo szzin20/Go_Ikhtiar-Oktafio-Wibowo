@@ -1,0 +1,7 @@
+mode: set
+testing/simple_testing/calculate.go:9.52,11.2 1 1
+testing/simple_testing/calculate.go:14.55,16.2 1 1
+testing/simple_testing/calculate.go:19.61,20.12 1 1
+testing/simple_testing/calculate.go:20.12,22.3 1 1
+testing/simple_testing/calculate.go:23.2,23.19 1 1
+testing/simple_testing/calculate.go:27.58,29.2 1 1

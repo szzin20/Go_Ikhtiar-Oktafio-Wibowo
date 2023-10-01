@@ -11,7 +11,35 @@
             "driver": "MySQL",
             "name": "orm_mvc",
             "username": "root",
-            "database": "orm_go",
+            "database": "middleware_go",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "prak_middleware",
+            "database": "middleware_go",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "test",
+            "database": "unit_testing",
+            "username": "root",
             "password": ""
         }
     ]
