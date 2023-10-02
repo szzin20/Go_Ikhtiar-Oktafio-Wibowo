@@ -1,10 +1,11 @@
 package controllers
 
 import (
-	"testing/config"
-	"testing/models"
 	"net/http"
 	"strconv"
+
+	"testing/restfulAPI_testing/models"
+	"testing/restfulAPI_testing/config"
 
 	"github.com/labstack/echo/v4"
 )

@@ -1,12 +1,11 @@
 package controllers
 
 import (
-	"testing/middlewares"
-
-	"testing/config"
-	"testing/models"
 	"net/http"
 	"strconv"
+	"testing/restfulAPI_testing/config"
+	"testing/restfulAPI_testing/middlewares"
+	"testing/restfulAPI_testing/models"
 
 	"github.com/labstack/echo/v4"
 )

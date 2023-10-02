@@ -1,7 +1,8 @@
 package main
 
 import (
-	"testing/config"
+	"testing/restfulAPI_testing/config"
+	"testing/restfulAPI_testing/route"
 
 	"github.com/labstack/echo/v4"
 )

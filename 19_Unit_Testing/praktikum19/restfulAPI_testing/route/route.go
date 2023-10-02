@@ -1,8 +1,8 @@
 package route
 
 import (
-	"testing/controllers"
-	"testing/middlewares"
+	"testing/restfulAPI_testing/controllers"
+	"testing/restfulAPI_testing/middlewares"
 
 	"github.com/labstack/echo/v4"
 )

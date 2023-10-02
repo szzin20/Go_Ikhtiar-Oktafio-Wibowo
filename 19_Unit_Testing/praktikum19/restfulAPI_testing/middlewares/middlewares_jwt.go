@@ -1,8 +1,7 @@
 package middlewares
 
 import (
-	"testing/constants"
-
+	"testing/restfulAPI_testing/constants"
 	"time"
 
 	"github.com/golang-jwt/jwt"
