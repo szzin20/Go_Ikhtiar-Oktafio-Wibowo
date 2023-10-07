@@ -1,0 +1,12 @@
+mode: set
+clean/controller/user_controller.go:18.67,22.2 1 1
+clean/controller/user_controller.go:24.60,26.16 2 1
+clean/controller/user_controller.go:26.16,30.3 1 0
+clean/controller/user_controller.go:31.2,33.4 1 1
+clean/controller/user_controller.go:36.59,39.16 3 1
+clean/controller/user_controller.go:39.16,43.3 1 0
+clean/controller/user_controller.go:44.2,45.16 2 1
+clean/controller/user_controller.go:45.16,49.3 1 1
+clean/controller/user_controller.go:50.2,51.16 2 1
+clean/controller/user_controller.go:51.16,55.3 1 0
+clean/controller/user_controller.go:56.2,63.4 2 1
