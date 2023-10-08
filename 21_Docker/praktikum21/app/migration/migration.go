@@ -1,7 +1,7 @@
 package migration
 
 import (
-	"rest/models"
+	"docker/models"
 
 	"gorm.io/gorm"
 )
