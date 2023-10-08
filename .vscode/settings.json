@@ -38,9 +38,9 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "test",
-            "database": "unit_testing",
+            "database": "db_crud_go",
             "username": "root",
-            "password": ""
+            "password": "1234"
         }
     ]
 }
