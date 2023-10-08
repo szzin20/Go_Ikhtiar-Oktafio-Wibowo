@@ -11,6 +11,8 @@ import (
 
 func InitRouter(e *echo.Echo, db *gorm.DB) {
 	// proses pembuatan object dan inject
+
+	
 	userRepo := repositories.NewUserRepository(db)
 	userController := controllers.NewUserController(*userRepo)
 
