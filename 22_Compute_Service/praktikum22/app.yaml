@@ -7,3 +7,4 @@ runtime_config:
 
 manual_scaling:
   instances: 1
+  
