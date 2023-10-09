@@ -1,4 +1,4 @@
-module docker
+module compute
 
 go 1.21.0
 

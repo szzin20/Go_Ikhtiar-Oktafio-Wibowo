@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"docker/constant"
+	"compute/constant"
 	"time"
 
 	"github.com/golang-jwt/jwt"

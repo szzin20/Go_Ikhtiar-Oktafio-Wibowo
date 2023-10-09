@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"docker/controllers"
-	"docker/repositories"
+	"compute/controllers"
+	"compute/repositories"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -12,7 +12,6 @@ import (
 func InitRouter(e *echo.Echo, db *gorm.DB) {
 	// proses pembuatan object dan inject
 
-	
 	userRepo := repositories.NewUserRepository(db)
 	userController := controllers.NewUserController(*userRepo)
 

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"docker/app/config"
-	"docker/app/database"
-	"docker/app/migration"
-	"docker/routes"
+	"compute/app/config"
+	"compute/app/database"
+	"compute/app/migration"
+	"compute/routes"
 	"fmt"
 
 	"github.com/labstack/echo/v4"

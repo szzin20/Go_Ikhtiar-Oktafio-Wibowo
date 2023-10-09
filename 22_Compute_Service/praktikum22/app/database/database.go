@@ -1,7 +1,7 @@
 package database
 
 import (
-	"docker/app/config"
+	"compute/app/config"
 	"fmt"
 
 	"gorm.io/driver/mysql"

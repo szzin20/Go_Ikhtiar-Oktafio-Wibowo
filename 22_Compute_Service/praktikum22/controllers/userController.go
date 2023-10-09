@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"docker/helpers"
-	"docker/repositories"
-	"docker/responses"
+	"compute/helpers"
+	"compute/repositories"
+	"compute/responses"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
