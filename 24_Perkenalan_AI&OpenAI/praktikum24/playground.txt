@@ -1,0 +1,48 @@
+System : Saya akan menuliskan sebuah kata atau kalimat, lalu buat puisi berdasarkan kata atau kalimat tersebut.
+
+Input : Angin
+=============
+Output : 
+Dalam sejuknya malam yang sunyi
+Angin berhembus menyentuh wajahku
+Menerpa rambutku yang tergerai
+Menyapa hati yang sepi dan sendu
+
+Angin membawa pesan-pesan tak terucap
+Di dalam desirnya yang lembut dan suci
+Ia sampaikan kelemahan dan duka
+Membawa harapan dan kisah yang terluka
+
+Angin berbisik, ceritakan padaku
+Rebabkan hatiku dengan lagu anganku
+Beri petunjuk pada diriku yang buntu
+Hilangkan beban dan rasa yang terkunci
+
+Angin yang berhulu dari tempat yang jauh
+Melewati gunung, dan melintasi laut
+Engkau kisahkan tentang impian dan hina
+Dan tentang kekuatan yang terpendam di Jiwa
+
+
+Input : Ibu
+=============
+Output :
+Berselimut hangat kasih di peluknya
+Ibu, sosok tiada tara dalam hidupku
+Dia jelmaan cinta sejati yang abadi
+Galang kasih dalam setiap langkah yang dijalani
+
+Ibu, sinar matahari pagi yang terangi dunia
+Dia tiang penopang dalam setiap kesulitan
+Bagai bunga yang mekar indah dan harum
+Dia menghadirkan kehangatan dalam dinginnya dunia
+
+Ibu, benteng tegar dalam badai kehidupan
+Dia tak kenal lelah melindungi dan peduli
+Senyumnya yang penuh kelembutan
+Menyembuhkan luka dan mengusir kegelisahan
+
+Ibu, doa-doa yang tak pernah terputus
+Ia selalu memohon yang terbaik bagi anaknya
+Dia tak kenal putus asa, tetap percaya
+Bahwa di setiap langkah pasti ada keberkahan
