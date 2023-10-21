@@ -6,5 +6,6 @@ use (
 	./19_Unit_Testing/praktikum19/
 	./20_Clean_Architecture/praktikum20
 	./22_Compute_Service/praktikum22
+	./26_Penggunaan_AI_Golang/praktikum26
 
 )
